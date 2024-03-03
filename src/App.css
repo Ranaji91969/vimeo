@@ -1,0 +1,249 @@
+.number1 {
+  border: 10mm;
+  border-color: blue;
+  border-radius: 5%;
+  background-color: aquamarine;
+  height: 8cm;
+  width: 20%;
+  text-align: center;
+  -webkit-text-fill-color: brown;
+  padding: 1cm;
+  
+
+}
+
+.number2 {
+  border: 10mm;
+  border-color: rgb(247, 247, 253);
+  border-radius: 5%;
+  background-color: rgb(71, 73, 40);
+  height: 8cm;
+  width: 20%;
+  text-align: center;
+  -webkit-text-fill-color: rgb(54, 37, 37);
+  padding: 1cm;
+  
+
+}
+/* CSS for the Form component */
+.form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #d7e0c9;
+  border-radius: 10px;
+}
+
+.form h1 {
+  text-align: center;
+}
+
+.messages {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.input {
+  width: 95%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #b35100;
+}
+
+.cart{
+ 
+ 
+  text-align:end;
+   padding: 10px;
+   margin:10px;
+   width: 150px; 
+   height: 400px;
+}
+.pcart{
+ 
+  
+  text-align:left;
+  padding: 10px;
+  margin:10px;
+  width: 200px;
+}
+.capp{
+  background-color:#bbbbbb;
+ background: url(https://img.freepik.com/free-photo/front-view-cyber-monday-composition_23-2149055978.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1699833600&semt=ais);
+ height: 250vh;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+ display:flex;
+justify-Content: space-around;
+margin-top: 10px;
+}
+
+button{
+  border: 2px #818181;
+  color: rgb(255, 251, 251);
+  background-color: rgb(80, 79, 79);
+  border-radius: 20px;
+}
+
+/* vemio plyer */
+
+
+.header{
+  border: 2px solid rgb(165, 162, 162);
+  background-color: rgb(231, 228, 228);
+  display: flex;
+  gap: 22.5%;
+  padding: 5px;
+  margin:5px;
+  
+ 
+  
+}
+
+
+/* The sidebar menu */
+.sidenav {
+  border: 1px solid rgb(160, 159, 159);
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 260px; /* Set the width of the sidebar */
+  margin: 5px;
+  margin-top: -5px;
+  z-index: 1; /* Stay on top */
+  top: 70px;
+  left: 5px;
+  background-color: #ffffff; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2b2a2a;
+  display: block;
+}
+
+
+.sidenav a:hover {
+  color: #696868;
+  background-color: #bdbdbd;
+}
+
+/* Style page content */
+.main {
+  width: 100%;
+  height: 250px;
+  margin-left: 5px; 
+  padding: 30px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.gallery {
+  border: 1px solid rgb(122, 120, 120);
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.gallery video {
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery:hover video {
+  transform: scale(1.1);
+  
+}
+
+
+
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 10px;
+  float: left;
+  width: 25.0%;
+  
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 100%;
+    margin: 6px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+    
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cent{
+ 
+  display: flex;
+  position: absolute;
+}
+.h3{
+  background-color: #d7dbd0;
+}
+
+
+
+.back{
+  background-color: #007bff;
+}
+ 
