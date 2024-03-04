@@ -9,7 +9,7 @@ function NavBar() {
 
         <header>
         
-              <NavLink  to="/" >Dashbord</NavLink>
+              <NavLink  to="/" ></NavLink>
               <NavLink to="/"></NavLink>
          </header>
      </nav>
