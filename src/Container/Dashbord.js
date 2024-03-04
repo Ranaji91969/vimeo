@@ -18,37 +18,43 @@ const Dashbord = () => {
     <>
       <div className='back'>
         <nav>
-          <header className='header'>
-            <h4 >𝐕𝐈𝐌𝐄𝐎</h4>
-            <Search onSearch={handleSearch} />
-           <a href="#">About</a>
-            <DropdownButton id="split-button-dropdown" title="User">
-            <Dropdown.Item eventKey="1">Profile</Dropdown.Item>
-            <Dropdown.Item eventKey="2">Login</Dropdown.Item>
-            <Dropdown.Item eventKey="3">Logout</Dropdown.Item>
-            <Dropdown.Divider />
-      </DropdownButton>
-          
-          </header>
+        <header className='header'>
+    <img src="logo.png" alt="Vimeo Logo" />
+    <Search onSearch={handleSearch} />
+    <button>Upgrade</button>
+    <DropdownButton id="split-button-dropdown" title="New Video">
+        <Dropdown.Item eventKey="1">Upload Video</Dropdown.Item>
+        <Dropdown.Item eventKey="2">Create Video</Dropdown.Item>
+        <Dropdown.Item eventKey="3">Record Screen</Dropdown.Item>
+        <Dropdown.Divider />
+    </DropdownButton>
+</header>
         </nav>
       </div>
       <div className='cent'>
-        <div className="sidenav">
-          <a href="#">Home</a>
-          <a href="#">Library</a>
-          <a href="#">live events</a>
-          <hr/>
-          <a href="#">showcases</a>
-          <a href="#">Analytics</a>
-          <a href="#">monetize</a>
-          <a href="#">watch</a>
-          <hr/>
-          <a href="#"> Wath's new </a>
+      
+        <div class="scroll-container">
+  <button>Upgrade</button>
+  <a href="#">Home</a>
+  <a href="#">Library</a>
+  <a href="#">Live events</a>
+  <hr/>
+  <a href="#">Showcases</a>
+  <a href="#">Analytics</a>
+  <a href="#">Monetize</a>
+  <hr/>
+  <a href="#">Watch</a>
+  <hr/>
+  <a href="#">What's New</a>
+  <hr/>
+  <a href="#">Upgrade for more videos</a>
+</div>
         </div>
+        
         <div className="main">
           <Video />
         </div>
-      </div>
+      
     </>
   );
 }
