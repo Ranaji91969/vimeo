@@ -6,7 +6,7 @@ import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { DropdownButton, Dropdown } from 'react-bootstrap';
 import Video from './Video';
- 
+
 
 const Dashbord = () => {
   const handleSearch = (query) => {
@@ -20,6 +20,7 @@ const Dashbord = () => {
         <nav>
         <header className='header'>
     <img src="logo.png" alt="Vimeo Logo" />
+    
     <Search onSearch={handleSearch} />
     <button>Upgrade</button>
     <DropdownButton id="split-button-dropdown" title="New Video">
@@ -28,13 +29,14 @@ const Dashbord = () => {
         <Dropdown.Item eventKey="3">Record Screen</Dropdown.Item>
         <Dropdown.Divider />
     </DropdownButton>
-</header>
+    </header>
         </nav>
       </div>
       <div className='cent'>
-      
-        <div class="scroll-container">
-  <button>Upgrade</button>
+     
+      <div class="scroll-container" >
+      <button class="upgrade-button">Upgrade</button>
+
   <a href="#">Home</a>
   <a href="#">Library</a>
   <a href="#">Live events</a>
@@ -42,13 +44,17 @@ const Dashbord = () => {
   <a href="#">Showcases</a>
   <a href="#">Analytics</a>
   <a href="#">Monetize</a>
+  
   <hr/>
   <a href="#">Watch</a>
   <hr/>
   <a href="#">What's New</a>
   <hr/>
-  <a href="#">Upgrade for more videos</a>
-</div>
+  <a href="#">
+  <span class="upgrade">Upgrade</span> for more videos
+</a>
+
+  </div>
         </div>
         
         <div className="main">
@@ -60,3 +66,4 @@ const Dashbord = () => {
 }
 
 export default Dashbord;
+
