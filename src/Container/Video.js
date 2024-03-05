@@ -14,11 +14,14 @@ videos.forEach(video => {
   });
 });
 
+
+
 const Video = () => {
   return (
-    <div><h3>Songs</h3>
+    <div>   
+      <h3>Songs</h3>
 
-<div className="responsive">
+<div className="Videosplay">
     <div className="gallery">
       <h6>Add to Vimeo Staff Picks</h6>  
     <video width="280
@@ -26,12 +29,12 @@ const Video = () => {
     webkit-playsinline="true"
     playsinline="true">
          <source
-          src="Mera.mp4"
+          src="waterplane_hydroplane_floatplane_739.mp4"
           type="video/mp4"
           autoPlay
         />
      </video>
-     Mera  na Sidhu
+     Waterplane
      <br/>
      50M-view.
      <br/>
@@ -42,7 +45,7 @@ const Video = () => {
 
   
   
-  <div className="responsive">
+  <div className="Videosplay">
     <div className="gallery">
     <h6>Add to Vimeo Staff Picks</h6>  
     <video width="280
@@ -50,7 +53,7 @@ const Video = () => {
     webkit-playsinline="true"
     playsinline="true">
         <source
-          src="sidhu.mp4"
+          src="Judaa_h.mp4"
           type="video/mp4"
           autoPlay
         />
@@ -63,7 +66,7 @@ const Video = () => {
      </div>
   </div>
   
-  <div className="responsive">
+  <div className="Videosplay">
     <div className="gallery">
     <h6>Add to Vimeo Staff Picks</h6>  
     <video width="280
@@ -81,9 +84,9 @@ const Video = () => {
     <br/>
      Gill rect.</div>
   </div>
-
+  <h3>Songs</h3>
   
-  <div className="responsive">
+  <div className="Videosplay">
     <div className="gallery">
     <h6>Add to Vimeo Staff Picks</h6>  
     <video width="280
@@ -91,11 +94,11 @@ const Video = () => {
     webkit-playsinline="true"
     playsinline="true">
         <source
-          src="Feeling_h.mp4"
+          src="cockpit_airplane_pilots_co_pilot_547.mp4"
           type="video/mp4"
           autoPlay
         />
-     </video>Kour b 
+     </video>Pilot Singh
      <br/>
      50K-view.
     <br/>
@@ -103,7 +106,7 @@ const Video = () => {
    </div>
   
   
-  <div className="responsive">
+  <div className="Videosplay">
     <div className="gallery">
     <h6>Add to Vimeo Staff Picks</h6>  
     <video width="280
@@ -111,18 +114,18 @@ const Video = () => {
     webkit-playsinline="true"
     playsinline="true">
         <source
-          src="Feeling_h.mp4"
+          src="diving_seal_underwater_animals_949.mp4"
           type="video/mp4"
           autoPlay
         />
-     </video>Kour b 
+     </video>Diving team
      <br/>
      50K-view.
     <br/>
      Whitehell rect.</div>
    </div>
   
-  <div className="responsive">
+  <div className="Videosplay">
     <div className="gallery">
     <h6>Add to Vimeo Staff Picks</h6>  
     <video width="280
@@ -130,11 +133,11 @@ const Video = () => {
     webkit-playsinline="true"
     playsinline="true">
         <source
-          src="sidhu.mp4"
+          src="karate_martial_arts_blur_bokeh_1048.mp4"
           type="video/mp4"
           autoPlay
         />
-     </video>Level - Sidhu Moose Wala
+     </video>Martial ARts
      <br/>
      20M-view.
      <br/>
@@ -143,7 +146,7 @@ const Video = () => {
      </div>
   </div>
   
-  <div className="responsive">
+  <div className="Videosplay">
     <div className="gallery">
     <h6>Add to Vimeo Staff Picks</h6>  
     <video width="280
@@ -151,18 +154,18 @@ const Video = () => {
     webkit-playsinline="true"
     playsinline="true">
         <source
-          src="Judaa_h.mp4"
+          src="waterplane_hydroplane_floatplane_739.mp4"
           type="video/mp4"
           autoPlay
         />
-     </video>Amrinder Gill
+     </video>Hydroplane
      <br/>
      80K-view.
     <br/>
      Gill rect.</div>
   </div>
   
-  <div className="responsive">
+  <div className="Videosplay">
     <div className="gallery">
       <h6>Add to Vimeo Staff Picks</h6>  
     <video width="280
@@ -170,12 +173,12 @@ const Video = () => {
     webkit-playsinline="true"
     playsinline="true">
          <source
-          src="Mera.mp4"
+          src="cockpit_airplane_pilots_co_pilot_547.mp4"
           type="video/mp4"
           autoPlay
         />
      </video>
-     Mera  na Sidhu
+     Mr singh Pilot
      <br/>
      50M-view.
      <br/>
