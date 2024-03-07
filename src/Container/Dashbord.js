@@ -16,22 +16,7 @@ const Dashbord = () => {
 
   return (
     <>
-      <div className='back'>
-        <nav>
-        <header className='header'>
-    <img src="logo.png" alt="Vimeo Logo" />
-    
-    <Search onSearch={handleSearch} />
-    <button>Upgrade</button>
-    <DropdownButton id="split-button-dropdown" title="New Video">
-        <Dropdown.Item eventKey="1">Upload Video</Dropdown.Item>
-        <Dropdown.Item eventKey="2">Create Video</Dropdown.Item>
-        <Dropdown.Item eventKey="3">Record Screen</Dropdown.Item>
-        <Dropdown.Divider />
-    </DropdownButton>
-    </header>
-        </nav>
-      </div>
+      
       <div className='cent'>
      
       <div class="scroll-container" >
@@ -66,4 +51,5 @@ const Dashbord = () => {
 }
 
 export default Dashbord;
+
 
